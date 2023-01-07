@@ -1,34 +1,6 @@
-# Home-Credit-Stacked-model
+# Home Credit: predicting clients' repayment abilities
 
-# Deploy ML models with FastAPI, Docker, and Heroku
-
-### 1. Develop and save the model with pickle
-
-### 2. Create Docker container
-
-```bash
-docker build -t app-name .
-
-docker run -p 80:80 app-name
-```
-
-### 3. Create Git repo
-
-If you clone this repo this step is not needed. Or you can delete this git repo with `rm -rf .git` and start with a new one:
-
-```bash
-git init
-git add .
-git commit -m "initial commit"
-git branch -M main
-```
-
-### 4. Create Heroku project
-
-```bash
-heroku login
-heroku create your-app-name
-heroku git:remote your-app-name
-heroku stack:set container
-git push heroku main
-```
+Many people struggle to get loans due to insufficient or non-existent credit histories.
+Home Credit Group Home Credit strives to broaden financial inclusion for the unbanked population by providing a positive and safe borrowing experience. To make sure this underserved population has a positive loan experience, Home Credit makes use of a variety of alternative data -including telco (telecommunications provider) and transactional information -to predict their clients' repayment abilities.
+While Home Credit is currently using various statistical methods to make these predictions, they're hoping that our ML project will unlock the full potential of their data.
+By doing so we will ensure that clients capable of repayment are not rejected and that loans are given with trust that will empower their clients to be successful.
